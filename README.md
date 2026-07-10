@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=D90000&height=150&text=💥%20FlexBox%20Tutorials%20💥&fontSize=40&textColor=ffffff" alt="Header">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=00000000&height=80&text=💥%20FlexBox%20Tutorials%20💥&textColor=ff3333&fontSize=35" alt="Header">
 </p>
