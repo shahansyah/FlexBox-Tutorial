@@ -1,1 +1,3 @@
-<h2 align="center">💥 FlexBox Tutorials 💥</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/💥_FlexBox_Tutorials_💥-black?style=for-the-badge" alt="Header">
+</p>
