@@ -1,1 +1,1 @@
-<h1 align="center">💥 FlexBox Tutorials 💥</h1>
+<h2 align="center">💥 FlexBox Tutorials 💥</h2>
