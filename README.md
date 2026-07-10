@@ -6,3 +6,6 @@ ________________________________________________________________________________
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
+
+
+>**"DI Sini Gw Membuat Dokumentasi Tentang Apa Itu Flexbox"**--FlexBox adalah Dokumentasi yang sengaja gw buat agar menjadi bahan rujukan pembelajaran yang mudah tanpa harus mengikuti tutorial cukup memahami beberapa atribut dasar maka kalian akan mudah untuk memahami step selanjutnya thanks.
