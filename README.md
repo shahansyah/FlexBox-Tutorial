@@ -9,3 +9,5 @@ ________________________________________________________________________________
 
 
 >**"DI Sini Gw Membuat Dokumentasi Tentang Apa Itu Flexbox"**--FlexBox adalah Dokumentasi yang sengaja gw buat agar menjadi bahan rujukan pembelajaran yang mudah tanpa harus mengikuti tutorial cukup memahami beberapa atribut dasar maka kalian akan mudah untuk memahami step selanjutnya thanks.
+
+>**“Here, I'm Creating Documentation on What Flexbox Is”**—Flexbox is documentation I created specifically to serve as an easy-to-use learning resource. You don’t need to follow a tutorial; just understand a few basic attributes, and you’ll easily grasp the next steps. Thanks.
