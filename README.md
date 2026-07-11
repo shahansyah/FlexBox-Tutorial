@@ -74,7 +74,7 @@ What Are You Doing Here?
 
     Box Model Consistency: You reapply `box-sizing: border-box` to the container and cards to ensure that element sizing remains accurate and precise, and does not overflow due to the addition of padding or borders.
  - **container3**:
- -What Are You Doing Here?
+ - What Are You Doing Here?
 
     1.Creating a Flexible Gallery with a Container (.container3): You enable Flexbox (display: flex) on the gallery’s main container, then add a crucial property: flex-wrap: wrap. This property forces the images to wrap to the next line instead of crowding together side by side. This container also features a striking blue-to-yellow-green gradient.
 
