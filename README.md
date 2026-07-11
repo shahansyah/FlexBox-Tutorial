@@ -32,7 +32,7 @@ This project demonstrates how to use FlexBox in CSS, as outlined in this documen
 ---
 
 ## 📝 Explanation by structure
-- **Container1**:
+- **container1**:
 - MText Manipulation with Interactive Effects (.contoh1)
 -   Concept: Using @keyframes to manipulate the position (translate) and rotation (rotate) of elements.
 
@@ -49,4 +49,15 @@ Concept: A simulation comparing the browser’s default behavior (content-box) w
 Results:
 Elements without `box-sizing: border-box` will overflow the container’s boundaries because the browser adds the values of `width`, `padding`, and `border` together.
 Elements with `box-sizing: border-box` remain precisely within the container because the browser automatically includes the padding and border space in the calculation of the element’s total width (100%).
+3. Semantic Multi-Column Page Structure (.main-container)
+ Concept: Creating a component-based web page layout (layouting) that divides content into several supporting columns (sidebars).
+Structural Components:
+.main-sidebar: Used as the main content/article area that contains long blocks of text.
+.sidebar1: Functions as a navigation menu containing a list of hyperlinks using list elements (<ul> and <li>).
+.sidebar2: Functions as a secondary column or additional information area on the side of the page.
+
+Result: This structure is designed to be styled using CSS Flexbox or Grid so that the three divs can be arranged horizontally into a responsive 3-column layout.
+
+- **container2**:
+- 
 
