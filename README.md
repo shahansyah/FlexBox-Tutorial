@@ -85,3 +85,15 @@ What Are You Doing Here?
 ⚒️The width of `.thumbnail` changes to 25%, so the images automatically rearrange into 4 columns side by side ($25\% \times 4 = 100\%$).
 
 ⚒️You also change `.container2` (from the previous code)—which was originally stacked vertically—to be arranged horizontally side-by-side (`display: flex; justify-content: space-between;`) with each service occupying 30% of the width.
+ - **container4**:
+ - What Are You Doing Here?
+
+    Creating a Card Grid Layout: You wrap your list of favorite heroes using a `.container4` that enables Flexbox (`display: flex`) and `flex-wrap: wrap`. This causes the hero cards to line up side by side and automatically wrap neatly to the bottom, forming new rows when space runs out.
+
+    Designing a Modern Card Component: You create a modern .card structure with a static width of 300px, gently rounded corners (border-radius: 20px), a light gray background, and the overflow: hidden property so that the hero image in the header is neatly cropped to follow the card’s curve.
+
+    Implementing Micro-Interactions:
+
+        You’ll add a custom transition effect using the timing function `cubic-bezier(0.25, 1, 0.1, 1)` to manipulate the size (transform) and shadow (box-shadow).
+
+        Interactive Effect: When the mouse cursor hovers over a card (.card:hover), the card significantly enlarges by 140% (scale(1.4)) and smoothly reveals a very thick black shadow beneath it. This creates a visual effect as if the card is floating forward toward the user’s screen.
