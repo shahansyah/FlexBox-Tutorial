@@ -19,15 +19,15 @@
 
 Proyek ini mengimplementasikan bagaimana penggunaan FlexBox pada CSS yang di jadikan dalam 1 dokumentasi ini...
 ## 📂️ Struktur yang ada di dalamnya
-|Struktur      |Spesifikasi         |
-| :------------| :-------------------------- |
-| `index.html` | membangun kerangka dasar web|
-| `style.css`  | untuk mengatur tampilan HTML|
-| `container1` | penjelasan dasar FlexBox    |
-| `container2` | box-sizing,Display,justify-content|
-| `container3` | flex-warp,max-width         |
-| `container4` | transition,overflow         |
-| `container5` | membuat kotak dan tulisan responsive|
+|Struktur      |Spesifikasi                          | Specifications                       |
+| :------------| :-----------------------------------|--------------------------------------|
+| `index.html` | membangun kerangka dasar web        | builds the basic web framework       |     
+| `style.css`  | untuk mengatur tampilan HTML        | to style the HTML                    |
+| `container1` | penjelasan dasar FlexBox            | basic explanation of FlexBox         |
+| `container2` | box-sizing,Display,justify-content  | box-sizing, display, justify-content |
+| `container3` | flex-warp,max-width                 | flex-wrap, max-width                 |
+| `container4` | transition,overflow                 | transition, overflow                 |
+| `container5` | membuat kotak dan tulisan responsive| creating responsive boxes and text   |
 
 ---
 
