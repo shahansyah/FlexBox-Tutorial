@@ -1,0 +1,364 @@
+html,
+body {
+  background: linear-gradient(to right, blue, red);
+}
+
+.contoh1 .container {
+  max-width: 600px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  margin: 50px auto;
+  background: linear-gradient(to right, red, blue);
+}
+.container h1 {
+  text-align: center;
+  font-family: var(--text-family);
+}
+
+:root {
+  --text-family: "Orbitron", sans-serif;
+}
+
+.tulisan p {
+  text-align: justify;
+  padding: 19px;
+}
+
+#p1,
+#p3,
+#p5 {
+  color: black;
+}
+
+.rotate {
+  max-width: 520px;
+  margin: 20px auto;
+  background-color: yellowgreen;
+  padding: 5px;
+  border: 2px solid black;
+}
+.rotate:hover {
+  animation: goyang 0.3s ease-in-out infinite;
+}
+
+@keyframes goyang {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  20% {
+    transform: translate(-2px, 1px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(10px, -10px) rotate(1deg);
+  }
+  60% {
+    transform: translate(-1px, 2px) rotate(0deg);
+  }
+  80% {
+    transform: translate(2px, 1px) rotate(1deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+/* ini bagian container ke dua */
+.contoh2 .container {
+  max-width: 1600px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  margin: 50px auto;
+  background: linear-gradient(to right, red, blue);
+  box-sizing: border-box;
+}
+.kotak {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kotak div {
+  width: 120px;
+  height: 120px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.kotak .satu {
+  background-color: rgb(250, 242, 3);
+}
+
+.kotak .satu {
+  animation: goyang2 5s linear infinite;
+}
+.kotak .dua {
+  background-color: rgb(255, 0, 200);
+}
+
+.kotak .dua {
+  animation: goyang1 5s linear infinite;
+}
+
+.kotak .tiga {
+  background-color: rgb(0, 255, 13);
+}
+
+.kotak .tiga {
+  animation: goyang2 5s linear infinite;
+}
+
+.kotak .empat {
+  background-color: rgb(255, 0, 0);
+}
+
+.kotak .empat {
+  animation: goyang1 5s linear infinite;
+}
+@keyframes goyang2 {
+  0% {
+    transform: rotate(360deg); /* Posisi awal */
+  }
+  100% {
+    transform: rotate(0deg); /* Berputar sampai 1 lingkaran penuh */
+  }
+}
+
+@keyframes goyang1 {
+  0% {
+    transform: rotate(0deg); /* Posisi awal */
+  }
+  100% {
+    transform: rotate(360deg); /* Berputar sampai 1 lingkaran penuh */
+  }
+}
+
+.Wadah {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 2px dashed #ccc;
+}
+
+/* 1. TANPA BORDER-BOX (Bawaan Browser / Content-Box) */
+.tanpa-border-box {
+  width: 100%;
+  padding: 40px;
+  border: 10px solid red;
+  background-color: #ffcccc;
+  margin-bottom: 40px;
+}
+
+/* 2. PAKAI BORDER-BOX */
+.pakai-border-box {
+  box-sizing: border-box; /* Dipaksa pas sesuai width */
+  max-width: 100%;
+  padding: 20px;
+  border: 10px solid green;
+  background-color: #ccffcc;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* latihan 1  penerapan flexbox*/
+
+.container-utama {
+  max-width: 1200px;
+  box-sizing: border-box;
+  border: 5px inset black;
+  margin: 50px auto;
+  text-align: justify;
+  background: linear-gradient(
+    to right,
+    rgb(30, 255, 0),
+    rgb(251, 255, 0),
+    rgb(255, 149, 0)
+  );
+  padding-bottom: 100px;
+  display: flex;
+}
+.sidebar1,
+.sidebar2 {
+  flex: 1;
+}
+.sidebar-utama {
+  flex: 2;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 5px solid black;
+}
+.sidebar-utama {
+  order: 2;
+}
+.sidebar1 {
+  order: 1;
+}
+.sidebar2 {
+  order: 3;
+}
+
+.sidebar-utama h2 {
+  text-align: center;
+  font-family: var(--text-family);
+  font-size: 2rem;
+}
+
+.sidebar-utama p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.sidebar1 h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--text-family);
+}
+
+.sidebar2 h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--text-family);
+}
+.sidebar2 p {
+  padding: 10px;
+}
+
+/* latihan 2 */
+.container2 {
+  box-sizing: border-box;
+  border: 15px groove black;
+  max-width: 800px;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.layanan {
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.layanan.satu {
+  background-color: red;
+  border: 2px solid black;
+}
+.layanan.dua {
+  background-color: pink;
+  border: 2px solid black;
+}
+.layanan.tiga {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+/* project latihan 3 */
+.container3 {
+  border: 5px groove black;
+  background: linear-gradient(to left, rgb(0, 102, 255), rgb(178, 178, 16));
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*inilah yang membuat itemnya turun ke bawah gak kesamping*/
+}
+.thumbnail {
+  width: 50%;
+  padding: 15px;
+}
+
+.thumbnail img {
+  width: 100%;
+  border: 5px solid white;
+}
+
+/* jadi fungsi box-sizing:border-box; adalah untuk menjaga ukuran container induk */
+@media (min-width: 600px) {
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .layanan {
+    width: 30%;
+  }
+  .thumbnail {
+    width: 25%;
+  }
+}
+
+.foto1:hover {
+  animation: goyang 0.3s ease-in-out infinite;
+}
+.foto5 {
+  animation: goyang2 5s linear infinite;
+}
+/* masalah responsifitas di hp */
+
+/* Latihan 4 card*/
+h2 {
+  text-align: center;
+  font-family: var(--text-family);
+  font-size: 3rem;
+}
+.container4 {
+  border: 8px groove black;
+  max-width: 800px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 20px;
+  /* animasi ease-in-out nya */
+  transition:
+    transform 0.4s cubic-bezier(0.25, 1, 0.1, 1),
+    box-shadow 0.4s ease;
+}
+
+.card .header img {
+  height: 350px;
+}
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 5px;
+}
+.card:hover {
+  /* 2. Saat di-hover, biarkan kartu membesar lewat transform bawaan dulu */
+  transform: scale(1.4);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 5);
+}
+
+/* latihan 5 */
+.container5 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  margin: 50px auto;
+  display: flex;
+}
+
+.kotak1{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+
+  text-align: center;
+  display: flex;
+  background-color: red;
+}
+.kotak span {
+  margin: auto;
+}

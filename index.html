@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>belajar flexbox</title>
+  </head>
+  <body>
+    <section class="contoh1">
+      <div class="container">
+        <h1>Flexbox tutorial</h1>
+        <div class="tulisan">
+          <p id="p1" class="rotate">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+            voluptatum rerum sed atque officia quam iure sequi molestias eius
+            sit, eaque similique natus nulla ad modi iste totam! Alias,
+            cupiditate?
+          </p>
+          <p id="p2" class="cube">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut,
+            officiis ipsum id aperiam molestiae quia necessitatibus vel quae
+            eligendi nisi aspernatur dicta cumque ratione praesentium rerum
+            natus est alias a.
+          </p>
+          <p id="p3" class="rotate">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae aliquam quisquam, error voluptates blanditiis animi enim
+            sequi obcaecati at eaque ipsum molestias totam? Quis ullam
+            distinctio earum doloremque, id fugit.
+          </p>
+          <p id="p4" class="cube">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem optio itaque nihil saepe rerum! Facere ab distinctio
+            fugit ipsa libero? Tempora iure possimus voluptates aliquid et
+            repellat dicta itaque mollitia.
+          </p>
+          <p id="p5" class="rotate">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            adipisci, ratione culpa in distinctio ea consectetur tempore aliquid
+            nesciunt debitis accusamus deleniti quam commodi harum autem vero
+            quaerat ipsam praesentium?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contoh2">
+      <div class="container">
+        <h1>Flexbox tutorial</h1>
+        <div class="kotak">
+          <!--ini induk class kotak-->
+          <div class="satu">1</div>
+          <div class="dua">2</div>
+          <div class="tiga">3</div>
+          <div class="empat">4</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="Wadah">
+      <h2>
+        Ekspektasi: Kedua kotak di bawah ini diatur agar lebarnya
+        <code>width: 100%;</code>
+      </h2>
+
+      <!-- KOTAK 1: MERAH -->
+      <div class="tanpa-border-box">
+        <strong>Tanpa Border-Box (Content-Box)</strong><br />
+        Kotak ini meluber/jebol keluar dari garis putus-putus abu-abu! Browser
+        menghitung: lebar 100% + padding 40px + border 20px. Totalnya jadi lebih
+        dari 100%.
+      </div>
+
+      <!-- KOTAK 2: HIJAU -->
+      <div class="pakai-border-box">
+        <strong>Pakai Border-Box</strong><br />
+        Kotak ini rapi dan pas berada di dalam garis putus-putus. Browser
+        otomatis memotong ruang di dalam kotak agar total lebarnya tetap murni
+        100%.
+      </div>
+    </div>
+
+    <!-- Latihan 1 -->
+    <div class="container-utama">
+      <div class="sidebar-utama">
+        <h2>JUDUL UTAMA</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+          pariatur sunt? Explicabo ab tempore nemo quis deleniti sint expedita
+          iusto! Quo quaerat odio iusto distinctio illo vitae magni! Molestias,
+          deleniti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Libero, pariatur sunt? Explicabo ab tempore nemo quis deleniti sint
+          expedita iusto! Quo quaerat odio iusto distinctio illo vitae magni!
+          Molestias, deleniti? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Libero, pariatur sunt? Explicabo ab tempore nemo
+          quis deleniti sint expedita iusto! Quo quaerat odio iusto distinctio
+          illo vitae magni! Molestias, deleniti?
+        </p>
+      </div>
+
+      <!--  ul>(li>a{link $})*5      tutorial cara membuat hyper link yang banyak dan mudah -->
+
+      <div class="sidebar1">
+        <h3>sidebar 1</h3>
+        <ul>
+          <li><a href="">link 1</a></li>
+          <li><a href="">link 2</a></li>
+          <li><a href="">link 3</a></li>
+          <li><a href="">link 4</a></li>
+          <li><a href="">link 5</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar2">
+        <h3>sidebar 2</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+          pariatur sunt? Explicabo ab tempore nemo quis deleniti sint expedita
+          iusto! Quo quaerat odio iusto distinctio illo vitae magni! Molestias,
+          deleniti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Libero, pariatur sunt? Explicabo ab tempore nemo quis deleniti sint
+          expedita iusto! Quo quaerat odio iusto distinctio illo vitae magni!
+          Molestias, deleniti? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Libero, pariatur sunt? Explicabo ab tempore nemo
+          quis deleniti sint expedita iusto! Quo quaerat odio iusto distinctio
+          illo vitae magni! Molestias, deleniti?
+        </p>
+      </div>
+    </div>
+
+    <!-- latihan dua -->
+    <div class="container2">
+      <div class="layanan satu">
+        <h3>Layanan 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad dolore
+          provident dolor aut excepturi nemo? Nostrum perspiciatis ex pariatur
+          architecto nulla, corrupti ipsa commodi nemo excepturi, aspernatur
+          ducimus. Quae?
+        </p>
+      </div>
+
+      <div class="layanan dua">
+        <h3>layanan2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
+          veritatis voluptas! Maiores labore deserunt illum autem explicabo
+          assumenda cum, molestiae libero totam reprehenderit. Modi ducimus
+          alias dignissimos mollitia quam odit?
+        </p>
+      </div>
+
+      <div class="layanan tiga">
+        <h3>Layanan 3</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam vitae
+          vero praesentium, inventore omnis ducimus, similique nostrum molestias
+          modi, quas tempore voluptatum accusamus rerum eveniet pariatur eaque
+          nulla corrupti molestiae?
+        </p>
+      </div>
+    </div>
+
+    <!-- Latihan 3 -->
+    <div class="container3">
+      <div class="thumbnail">
+        <img src="1.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1" />
+      </div>
+       <div class="thumbnail">
+        <img src="2.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="3.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="4.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="5.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto5"/>
+      </div>
+       <div class="thumbnail">
+        <img src="11.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="7.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="8.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="9.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+       <div class="thumbnail">
+        <img src="10.png" alt="Contoh thumbnail" title="Thumbnail contoh" class="foto1"/>
+      </div>
+    </div>
+
+    <!-- Latihan 4 card -->
+     <h2>My Favorite Hero</h2>
+     <div class="container4">
+      <div class="card">
+      <div class="header">
+        <img src="1.png" alt="gambar">
+      </div>
+      <div class="content">
+        <p>Hayabusa adalah salah satu hero Assassin paling ikonis di Mobile Legends: Bang Bang. 
+          Dia dikenal sebagai ninja bayangan dengan mobilitas super tinggi dan 
+          kemampuan eliminasi target tunggal yang sangat mematikan.</p>
+        <button>Buy now</button>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="header">
+        <img src="2.png" alt="gambar">
+      </div>
+      <div class="content">
+        <p>Ling adalah salah satu hero Assassin papan atas di Mobile Legends: 
+          Bang Bang yang terkenal dengan mekanik uniknya: berjalan dan melompat di atas dinding map. 
+          Dia adalah tipe hero high-risk, high-reward dengan mobilitas tertinggi di dalam game.</p>
+        <button>Buy now</button>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="header">
+        <img src="3.png" alt="gambar">
+      </div>
+      <div class="content">
+        <p>Suyou adalah salah satu hero Assassin/Fighter di Mobile Legends:
+          Bang Bang yang memiliki mekanik sangat unik berupa dua mode serangan (Tap dan Hold) pada setiap skill-nya. 
+          Dia terinspirasi dari tema pengusir setan (exorcist) timur dan memiliki mobilitas serta daya tahan yang sangat fleksibel.</p>
+        <button>Buy now</button>
+      </div>
+     </div>
+   
+
+    <div class="card">
+      <div class="header">
+        <img src="11.png" alt="gambar">
+      </div>
+      <div class="content">
+        <p>Lancelot adalah salah satu hero Assassin paling klasik dan populer di Mobile Legends: Bang Bang. 
+          Dia adalah definisi dari hero yang mengandalkan kelincahan tangan 
+          (fast hand) berkat kemampuannya untuk melakukan dash tanpa batas jika mengenai target yang berbeda.</p>
+        <button>Buy now</button>
+      </div>
+     </div>
+    </div>
+     </div>
+
+
+<div class="container5">
+  <div class="kotak1"><span>muhammad shahan syah naufal abdullah</span></div>
+</div>
+  </body>
+</html>
