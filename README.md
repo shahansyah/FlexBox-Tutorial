@@ -32,7 +32,8 @@ This project demonstrates how to use FlexBox in CSS, as outlined in this documen
 ---
 
 ## 📝 Explanation by structure
-- **container1**:
+ - **container1**:
+ - What Are You Doing Here?
 - MText Manipulation with Interactive Effects (.contoh1)
 -   Concept: Using @keyframes to manipulate the position (translate) and rotation (rotate) of elements.
 
@@ -63,8 +64,8 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
 
     Result: This structure is designed to be styled using CSS Flexbox or Grid so that the three divs can be arranged horizontally into a responsive 3-column layout.
 
-- **container2**:
-What Are You Doing Here?
+ - **container2**:
+ - What Are You Doing Here?
 
     Creating a Main Container (.container2): You wrap all three services in a single large box with a maximum width of 800px, neatly centered on the page (margin: 50px auto), and give it a thick decorative frame with a carved pattern (groove).
 
