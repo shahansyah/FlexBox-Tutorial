@@ -110,7 +110,10 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
     Positioning Text Inside a Box: You can also make `.kotak1` a Flex container and set `margin: auto` on the `span` element inside it. The same trick works again: your name will automatically be centered both vertically and horizontally within `.kotak1`.
 
 ## Okay, I guess that’s all for the documentation I’ve put together. I hope it’s useful to you and helps with your studies 😊️.
+
+## 👥 Tim Pengembang:
+* **[Muhammad Shahan Syah Naufal Abdullah]** - computer science
  ---
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&weight=bold&pause=1000&color=D90000&center=true&vCenter=true&width=500&height=70&lines=THANK+YOU" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=D90000&center=true&vCenter=true&width=500&height=70&lines=%F0%9F%92%A5+FlexBox+Tutorials+%F0%9F%92%A5" alt="Typing SVG" />
 </p>
