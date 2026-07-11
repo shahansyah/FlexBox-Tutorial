@@ -98,3 +98,13 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
         You’ll add a custom transition effect using the timing function `cubic-bezier(0.25, 1, 0.1, 1)` to manipulate the size (transform) and shadow (box-shadow).
 
         Interactive Effect: When the mouse cursor hovers over a card (.card:hover), the card significantly enlarges by 140% (scale(1.4)) and smoothly reveals a very thick black shadow beneath it. This creates a visual effect as if the card is floating forward toward the user’s screen.
+
+  - **container5**:
+ - What Are You Doing Here?  
+
+
+    Creating a Static Container (.container5): You create a perfectly square container measuring 500px x 500px with a thick black border, centered on the page, and enable Flexbox mode (display: flex).
+
+    The Perfect Centering Trick with margin: auto: On .kotak1, you set the margin property to margin: auto. Since its parent (.container5) is a Flex container, setting margin: auto on a child element automatically pushes that box exactly to the center of its container, both vertically and horizontally.
+
+    Positioning Text Inside a Box: You can also make `.kotak1` a Flex container and set `margin: auto` on the `span` element inside it. The same trick works again: your name will automatically be centered both vertically and horizontally within `.kotak1`.
