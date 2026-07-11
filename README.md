@@ -55,7 +55,6 @@ Structural Components:
 .main-sidebar: Used as the main content/article area that contains long blocks of text.
 .sidebar1: Functions as a navigation menu containing a list of hyperlinks using list elements (<ul> and <li>).
 .sidebar2: Functions as a secondary column or additional information area on the side of the page.
-
 Result: This structure is designed to be styled using CSS Flexbox or Grid so that the three divs can be arranged horizontally into a responsive 3-column layout.
 
 - **container2**:
