@@ -25,4 +25,4 @@ Proyek ini mengimplementasikan bagaimana penggunaan FlexBox pada CSS yang di jad
 | `style.css`  | untuk mengatur tampilan HTML|
 | `container1` | penjelasan dasar FlexBox    |
 | `container2` | box-sizing,Display,justify-content|
-| `container3` | flex-warp,max-width|
+| `container3` | flex-warp,max-width         |
