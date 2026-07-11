@@ -81,5 +81,7 @@ What Are You Doing Here?
     2.Setting the Default Image Size (Mobile View): By default, you set the .thumbnail class to have a width of 50%. This means that on small screens, the images will automatically be split into two columns side by side (since $50\% \times 2 = 100\%$).
 
    3.Applying Media Queries for Responsiveness (Laptop View): You add the @media (min-width: 600px) rule. When the website is opened on a screen wider than 600px (such as a tablet or laptop):
+
 ⚒️The width of `.thumbnail` changes to 25%, so the images automatically rearrange into 4 columns side by side ($25\% \times 4 = 100\%$).
+
 ⚒️You also change `.container2` (from the previous code)—which was originally stacked vertically—to be arranged horizontally side-by-side (`display: flex; justify-content: space-between;`) with each service occupying 30% of the width.
