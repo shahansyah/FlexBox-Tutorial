@@ -33,10 +33,10 @@ This project demonstrates how to use FlexBox in CSS, as outlined in this documen
 
 ## 📝 Explanation by structure
 - **Container1**:
--  MText Manipulation with Interactive Effects (.contoh1)
+1.MText Manipulation with Interactive Effects (.contoh1)
 -   Concept: Using @keyframes to manipulate the position (translate) and rotation (rotate) of elements.
 
-    Result: When the cursor hovers over a paragraph with the .rotate class, the text responds with a dynamic shaking/wobbling effect to enhance user interactivity.
+  Result: When the cursor hovers over a paragraph with the .rotate class, the text responds with a dynamic shaking/wobbling effect to enhance user interactivity.
 
 2. Flexible Layout and Transition Animations (.example2)
 
