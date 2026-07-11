@@ -111,3 +111,6 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
 
 ## Okay, I guess that’s all for the documentation I’ve put together. I hope it’s useful to you and helps with your studies 😊️.
  ---
+ <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&weight=bold&pause=1000&color=D90000&center=true&vCenter=true&width=500&height=70&lines=THANK+YOU" alt="Typing SVG" />
+</p>
