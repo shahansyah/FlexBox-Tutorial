@@ -76,6 +76,9 @@ What Are You Doing Here?
  - **container3**:
 What Are You Doing Here?
 
-    Creating a Flexible Gallery with a Container (.container3): You enable Flexbox (display: flex) on the gallery’s main container, then add a crucial property: flex-wrap: wrap. This property forces the images to wrap to the next line instead of crowding together side by side. This container also features a striking blue-to-yellow-green gradient.
+    1.Creating a Flexible Gallery with a Container (.container3): You enable Flexbox (display: flex) on the gallery’s main container, then add a crucial property: flex-wrap: wrap. This property forces the images to wrap to the next line instead of crowding together side by side. This container also features a striking blue-to-yellow-green gradient.
 
-    Setting the Default Image Size (Mobile View): By default, you set the .thumbnail class to have a width of 50%. This means that on small screens, the images will automatically be split into two columns side by side (since $50\% \times 2 = 100\%$).
+    2.Setting the Default Image Size (Mobile View): By default, you set the .thumbnail class to have a width of 50%. This means that on small screens, the images will automatically be split into two columns side by side (since $50\% \times 2 = 100\%$).
+    3.Applying Media Queries for Responsiveness (Laptop View): You add the @media (min-width: 600px) rule. When the website is opened on a screen wider than 600px (such as a tablet or laptop):
+⚒️The width of `.thumbnail` changes to 25%, so the images automatically rearrange into 4 columns side by side ($25\% \times 4 = 100\%$).
+⚒️You also change `.container2` (from the previous code)—which was originally stacked vertically—to be arranged horizontally side-by-side (`display: flex; justify-content: space-between;`) with each service occupying 30% of the width.
