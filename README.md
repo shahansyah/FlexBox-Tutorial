@@ -39,7 +39,7 @@ This project demonstrates how to use FlexBox in CSS, as outlined in this documen
 
   Result: When the cursor hovers over a paragraph with the .rotate class, the text responds with a dynamic shaking/wobbling effect to enhance user interactivity.
 
-1. Flexible Layout and Transition Animations (.example2)
+1. Flexible Layout and Transition Animations (.contoh2)
 
     Concept: Application of CSS Flexbox with the `justify-content: space-around` property to align child elements horizontally.
 
@@ -50,13 +50,13 @@ Concept: A simulation comparing the browser’s default behavior (content-box) w
 Results:
 Elements without `box-sizing: border-box` will overflow the container’s boundaries because the browser adds the values of `width`, `padding`, and `border` together.
 Elements with `box-sizing: border-box` remain precisely within the container because the browser automatically includes the padding and border space in the calculation of the element’s total width (100%).
-4. Semantic Multi-Column Page Structure (.main-container)
+4. Semantic Multi-Column Page Structure (.container-utama)
 
     Concept: Creating a component-based web page layout (layouting) that divides content into several supporting columns (sidebars).
 
     Structural Components:
 
-        .main-sidebar: Used as the main content/article area that contains long blocks of text.
+        .sidebar-utama: Used as the main content/article area that contains long blocks of text.
 
         .sidebar1: Functions as a navigation menu containing a list of hyperlinks using list elements (<ul> and <li>).
 
@@ -69,9 +69,9 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
 
     Creating a Main Container (.container2): You wrap all three services in a single large box with a maximum width of 800px, neatly centered on the page (margin: 50px auto), and give it a thick decorative frame with a carved pattern (groove).
 
-    Applying the Content Card Design (.service): You establish a uniform set of rules for each service card, such as adding space inside the card (padding: 20px) and spacing between cards vertically (margin-bottom: 20px).
+    Applying the Content Card Design (.layanan): You establish a uniform set of rules for each service card, such as adding space inside the card (padding: 20px) and spacing between cards vertically (margin-bottom: 20px).
 
-    Creating a Unique Identity Using Multi-Classes: You use class combinations (such as .service.one, .service.two, etc.) to color the background of each card specifically with different colors (Red, Pink, and Brown) and frame them with a thin black line.
+    Creating a Unique Identity Using Multi-Classes: You use class combinations (such as .layanan.satu, .layanan.dua, etc.) to color the background of each card specifically with different colors (Red, Pink, and Brown) and frame them with a thin black line.
 
     Box Model Consistency: You reapply `box-sizing: border-box` to the container and cards to ensure that element sizing remains accurate and precise, and does not overflow due to the addition of padding or borders.
  - **container3**:
