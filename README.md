@@ -33,18 +33,18 @@ This project demonstrates how to use FlexBox in CSS, as outlined in this documen
 
 ## 📝 Explanation by structure
 - **Container1**:
-1.MText Manipulation with Interactive Effects (.contoh1)
+- MText Manipulation with Interactive Effects (.contoh1)
 -   Concept: Using @keyframes to manipulate the position (translate) and rotation (rotate) of elements.
 
   Result: When the cursor hovers over a paragraph with the .rotate class, the text responds with a dynamic shaking/wobbling effect to enhance user interactivity.
 
-2. Flexible Layout and Transition Animations (.example2)
+1. Flexible Layout and Transition Animations (.example2)
 
     Concept: Application of CSS Flexbox with the `justify-content: space-around` property to align child elements horizontally.
 
     Result: Creates an arrangement of four multicolored boxes that rotate continuously and automatically. The boxes are designed to rotate in opposite directions (clockwise and counterclockwise) using two different variations of @keyframes for rotation.
 
-3. Demonstration of Element Size Calculations/Box Model (.wadah)
+2. Demonstration of Element Size Calculations/Box Model (.wadah)
 Concept: A simulation comparing the browser’s default behavior (content-box) with the use of the `box-sizing: border-box` property.
 Results:
 Elements without `box-sizing: border-box` will overflow the container’s boundaries because the browser adds the values of `width`, `padding`, and `border` together.
