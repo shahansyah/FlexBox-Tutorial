@@ -21,3 +21,4 @@ Proyek ini mengimplementasikan bagaimana penggunaan FlexBox pada CSS yang di jad
 ## 📂️ Struktur yang ada di dalamnya
 |Struktur      |Spesifikasi         |
 | :------------| :-------------------------- |
+| `index.html` | membangun kerangka dasar web naudjaoppfdafa
