@@ -64,5 +64,15 @@ Elements with `box-sizing: border-box` remain precisely within the container bec
     Result: This structure is designed to be styled using CSS Flexbox or Grid so that the three divs can be arranged horizontally into a responsive 3-column layout.
 
 - **container2**:
-- 
+What Are You Doing Here?
+
+    Creating a Main Container (.container2): You wrap all three services in a single large box with a maximum width of 800px, neatly centered on the page (margin: 50px auto), and give it a thick decorative frame with a carved pattern (groove).
+
+    Applying the Content Card Design (.service): You establish a uniform set of rules for each service card, such as adding space inside the card (padding: 20px) and spacing between cards vertically (margin-bottom: 20px).
+
+    Creating a Unique Identity Using Multi-Classes: You use class combinations (such as .service.one, .service.two, etc.) to color the background of each card specifically with different colors (Red, Pink, and Brown) and frame them with a thin black line.
+
+    Box Model Consistency: You reapply `box-sizing: border-box` to the container and cards to ensure that element sizing remains accurate and precise, and does not overflow due to the addition of padding or borders.
+ - **container3**:
+Apa yang Kamu Lakukan di Sini?Membuat Galeri Fleksibel dengan Pembungkus (.container3): Kamu mengaktifkan Flexbox (display: flex) pada wadah utama galeri, lalu menambahkan properti super penting: flex-wrap: wrap. Properti inilah yang memaksa gambar-gambar untuk turun ke bawah membuat baris baru alih-alih berdesakan menyamping. Wadah ini juga diberi warna gradasi biru-kuning kehijauan yang mencolok.Mengatur Ukuran Gambar Bawaan (Tampilan HP): Secara default, kamu mengatur .thumbnail dengan width: 50%. Artinya, pada layar yang kecil, gambar otomatis akan terbagi menjadi 2 kolom ke samping (karena $50\% \times 2 = 100\%$).Menerapkan Media Query untuk Responsivitas (Tampilan Laptop): Kamu menambahkan perintah @media (min-width: 600px). Ketika website dibuka di layar yang lebih lebar dari 600px (seperti tablet atau laptop):Lebar .thumbnail berubah menjadi 25%, sehingga gambarnya otomatis berubah susunan menjadi 4 kolom ke samping ($25\% \times 4 = 100\%$).Kamu juga mengubah .container2 (dari kode sebelumnya) yang tadinya vertikal ke bawah menjadi berjejer horizontal menyamping (display: flex; justify-content: space-between;) dengan lebar masing-masing layanan sebesar 30%.Memberikan Animasi pada Foto Edisi Khusus:Semua foto dengan class .foto1 akan bergetar/bergoyang dengan cepat hanya ketika kursor mouse diarahkan ke sana (:hover).Foto kelima (.foto5) diberi perlakuan khusus, yaitu berputar terus-menerus secara otomatis tanpa perlu disentuh kursor.
 
