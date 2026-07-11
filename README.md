@@ -15,10 +15,10 @@
 
 >**“Here, I'm Creating Documentation on What Flexbox Is”**—Flexbox is documentation I created specifically to serve as an easy-to-use learning resource. You don’t need to follow a tutorial; just understand a few basic attributes, and you’ll easily grasp the next steps. Thanks.
 
-## ⚒️ Spesifikasi Arsitektur
+## ⚒️ Spesifikasi Arsitektur / Architectural Specifications
 
-Proyek ini mengimplementasikan bagaimana penggunaan FlexBox pada CSS yang di jadikan dalam 1 dokumentasi ini...
-## 📂️ Struktur yang ada di dalamnya
+This project demonstrates how to use FlexBox in CSS, as outlined in this documentation...
+## 📂️ Struktur yang ada di dalamnya / The structure inside it 
 |Struktur      |Spesifikasi                          | Specifications                       |
 | :------------| :-----------------------------------|--------------------------------------|
 | `index.html` | membangun kerangka dasar web        | builds the basic web framework       |     
@@ -30,4 +30,23 @@ Proyek ini mengimplementasikan bagaimana penggunaan FlexBox pada CSS yang di jad
 | `container5` | membuat kotak dan tulisan responsive| creating responsive boxes and text   |
 
 ---
+
+## 📝 Explanation by structure
+- **Container1**:
+-  MText Manipulation with Interactive Effects (.contoh1)
+-   Concept: Using @keyframes to manipulate the position (translate) and rotation (rotate) of elements.
+
+    Result: When the cursor hovers over a paragraph with the .rotate class, the text responds with a dynamic shaking/wobbling effect to enhance user interactivity.
+
+2. Flexible Layout and Transition Animations (.example2)
+
+    Concept: Application of CSS Flexbox with the `justify-content: space-around` property to align child elements horizontally.
+
+    Result: Creates an arrangement of four multicolored boxes that rotate continuously and automatically. The boxes are designed to rotate in opposite directions (clockwise and counterclockwise) using two different variations of @keyframes for rotation.
+
+3. Demonstration of Element Size Calculations/Box Model (.wadah)
+Concept: A simulation comparing the browser’s default behavior (content-box) with the use of the `box-sizing: border-box` property.
+Results:
+Elements without `box-sizing: border-box` will overflow the container’s boundaries because the browser adds the values of `width`, `padding`, and `border` together.
+Elements with `box-sizing: border-box` remain precisely within the container because the browser automatically includes the padding and border space in the calculation of the element’s total width (100%).
 
